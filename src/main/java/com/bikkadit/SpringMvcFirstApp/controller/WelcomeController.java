@@ -23,6 +23,7 @@ public class WelcomeController {
 	public String welcomeMsg(@RequestParam String name) {
 		String msg = "hii "+name+" welcome to bikkad it";
 		System.out.println(msg);
+
 		return "welcome1";
 	}
 }
